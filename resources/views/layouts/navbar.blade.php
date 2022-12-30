@@ -21,8 +21,9 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    Barbatos Shop
                 </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,7 +31,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-
+                    <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Beauty</a></li>
+                    <li><a class="dropdown-item" href="#">Camera</a></li>
+                </ul>
+                </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
